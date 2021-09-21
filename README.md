@@ -15,7 +15,9 @@ The data can be used to build and train an ML model that can segment blood cells
 This repo contains the following structure:
 
 - **images**: directory of microscopy images.
-- **masks**: directory of *mask* images representing the segmented blood cells in the microscopy images.
+- **masks**: directory of *mask* images representing the segmented blood cells in the microscopy images. These were generated from the original masks in the dataset using a Jupyter Notebook (described below).
+- **masks_orig/masks**: contains the original masks provided by the source dataset.
+- **convert.ipynb**: Jupyter Notebook to convert the original masks into the format required for PerceptiLabs. Specifically, PerceptiLabs currently only supports masks with a single classification where by the background is represented as black (0) and the object(s) as white (255).
 - **data.csv**: CSV file that maps microscopy images to their corresponding mask images.
 
 <p align="center">
