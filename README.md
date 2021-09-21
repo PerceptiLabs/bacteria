@@ -25,6 +25,7 @@ This repo contains the following structure:
 The following shows a partial example of the data stored in **dataset.csv** that is used as the main example.
 
 | **images**  | **masks** |
+|-------------|----------------------------------------|
 | images/001.png | masks/001.png |
 | images/002.png | masks/002.png |
 | images/003.png | masks/003.png |
