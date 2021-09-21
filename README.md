@@ -4,9 +4,9 @@
   </a>
 </p>
 
-# Blood detection in darkfield microscopy images
+# Blood detection in Dark-field Microscopy Images
 
-This dataset<sup>1</sup> contains over 366 darkfield microscopy images.
+This dataset<sup>1</sup> contains over 366 [dark-field microscopy](https://en.wikipedia.org/wiki/Dark-field_microscopy) images.
 
 The data can be used to build and train an ML model that can segment blood cells.
 
@@ -14,15 +14,15 @@ The data can be used to build and train an ML model that can segment blood cells
 
 This repo contains the following structure:
 
-- **images**: contains the images directory.
-- **masks**: contains the masks directory.
-- **dataset.csv**: CSV file with all required data.
+- **images**: directory of microscopy images.
+- **masks**: directory of *mask* images representing the segmented blood cells in the microscopy images.
+- **data.csv**: CSV file that maps microscopy images to their corresponding mask images.
 
 <p align="center">
   <img src="./sample.png">
 </p>
 
-The following shows a partial example of the data stored in **dataset.csv** that is used as the main example.
+The following shows a partial example of the data stored in **data.csv**:
 
 | **images**  | **masks** |
 |-------------|----------------------------------------|
