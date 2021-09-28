@@ -42,5 +42,5 @@ The following shows a partial example of the data stored in **data.csv**:
 
 Got questions, feedback, or want to join a community of machine learning practitioners working with exciting tools and projects? Check out our [Community](https://forum.perceptilabs.com/)!
 
-<sup>1</sup> Dataset Credits: https://www.kaggle.com/paultimothymooney/blood-cells
+<sup>1</sup> Dataset Credits: https://www.kaggle.com/longnguyen2306/bacteria-detection-with-darkfield-microscopy
 
